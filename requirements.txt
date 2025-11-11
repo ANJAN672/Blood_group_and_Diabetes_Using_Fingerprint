@@ -1,0 +1,9 @@
+# This legacy requirements file mirrors the uv-managed dependencies defined in pyproject.toml.
+# Prefer using `uv sync` to create and manage the virtual environment.
+tensorflow==2.13.0
+tensorflow-intel==2.13.0 ; platform_system == "Windows"
+numpy==1.24.3
+pillow>=9.1,<11
+streamlit>=1.28,<1.39
+h5py>=3.8,<4
+tensorflow-io-gcs-filesystem==0.31.0
