@@ -405,6 +405,14 @@ def main():
     with diabetes_tab:
         run_diabetes_tab()
 
+    # Disclaimer
+    st.divider()
+    st.warning(
+        "⚠️ **Disclaimer:** This system cannot be used with fingerprints from babies or infants. "
+        "Fingerprint patterns in young children are not fully developed and may lead to inaccurate results. "
+        "This tool is intended for use with adult fingerprints only."
+    )
+
 
 if __name__ == "__main__":
     main()
